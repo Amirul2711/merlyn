@@ -1,0 +1,163 @@
+/* Gaya umum untuk keseluruhan laman */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-image: url('images/Nasi Ayam Hainan-1260.avif'); /* Gambar latar belakang */
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff; /* Warna teks putih */
+    line-height: 1.6;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Warna latar belakang yang sedikit gelap untuk header */
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: #FFD700; /* Warna emas untuk tajuk */
+}
+
+/* Navigasi */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFD700;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #FFD700;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Menu Section */
+.menu {
+    padding: 80px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 60px; /* Untuk mengelak header yang fixed */
+}
+
+.menu h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* Menu Grid */
+.menu-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item {
+    text-align: center;
+    margin: 20px;
+}
+
+.menu-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.menu-item p {
+    font-size: 18px;
+}
+
+.menu-item strong {
+    font-size: 20px;
+}
+
+/* About Section */
+.about {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FFD700;
+}
+
